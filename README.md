@@ -20,7 +20,7 @@ Ein Docker-Container für Unraid, der ältere und nicht mehr angesehene Filme au
 
 1. Klone dieses Repository:
    ```bash
-   git clone https://github.com/dein-username/media-cleanup-jellyfin.git
+   git clone https://github.com/Sarge527/media-cleanup-jellyfin.git
    cd media-cleanup-jellyfin
    ```
 
