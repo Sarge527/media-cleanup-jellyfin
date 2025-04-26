@@ -53,7 +53,7 @@ Ein Docker-Container für Unraid, der ältere und nicht mehr angesehene Filme au
 
 1. Gehe in Unraid zu "Docker" Tab
 2. Klicke auf "Add Container"
-3. Repository: `dein-username/media-cleanup-jellyfin`
+3. Repository: `Sarge527/media-cleanup-jellyfin`
 4. Setze die folgenden Einstellungen:
    - Name: media-cleanup-jellyfin
    - Netzwerktyp: Bridge

@@ -1,0 +1,16 @@
+version: '3'
+services:
+  media-cleanup:
+    build: .
+    container_name: media-cleanup-jellyfin
+    environment:
+      - TZ=Europe/Berlin
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - /pfad/zu/config:/config
+      - /pfad/zu/movies:/media/movies
+      - /pfad/zu/output:/output
+    ports:
+      - 8080:8080
+    restart: unless-stopped
