@@ -1,6 +1,3 @@
-# media cleanup jellyfin
- removes all old media files form your server, which are unwatched or never watched
-
 # Media Cleanup für Jellyfin
 
 Ein Docker-Container für Unraid, der ältere und nicht mehr angesehene Filme automatisch identifiziert, damit du deinen Speicherplatz optimieren kannst.
